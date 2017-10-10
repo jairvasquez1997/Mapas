@@ -51,7 +51,7 @@ export class HomePage {
       let marker = new google.maps.Marker({
         position: myLatLng,
         map: this.map,
-        title: 'Aquí estoy!, en proceso'
+        title: 'Aquí estoy!, en proceso desde github'
       });
       mapEle.classList.add('show-map');
     });
